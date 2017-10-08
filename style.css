@@ -1,0 +1,111 @@
+/* Edições autorais */
+@import url("https://edmandindie.github.io/css/autorais/playlist.css");
+
+/* Edições próprias */
+@import url("https://edmandindie.github.io/css/hidden_elements.css");
+@import url("https://edmandindie.github.io/css/buttons-animation.css");
+@import url("https://edmandindie.github.io/css/buttons.css");
+@import url("https://edmandindie.github.io/css/buttons-vote.css");
+@import url("https://edmandindie.github.io/css/animations.css");
+@import url("https://edmandindie.github.io/css/others.css");
+@import url("https://edmandindie.github.io/css/icons.css");
+@import url("https://edmandindie.github.io/css/chat.css");
+
+/* Header - Cabeçalho
+-------------------------------------------------------------------------------*/
+
+/* Nome da sala */
+#room-name,
+#room-host { left: 80px }
+
+#room-bar .icon-room {
+    top: 3px;
+    width: 70px;
+    height: 50px;
+    background: url("https://edmandindie.github.io/imagens/logo-min.png");
+}
+
+.app-header {
+    background: linear-gradient(0deg, rgba(0,0,0,.8), rgba(0,0,0,.3));
+    background: -webkit-gradient(linear, left bottom, left top, from(rgba(0,0,0,.8)), to(rgba(0,0,0,.3)));
+    background: -webkit-linear-gradient(bottom, rgba(0,0,0,.8), rgba(0,0,0,.3));
+    background: -o-linear-gradient(bottom, rgba(0,0,0,.8), rgba(0,0,0,.3));
+    
+    box-shadow: inset 0 2px 0 -1px rgba(0,0,0,.3);
+    -webkit-box-shadow: inset 0 2px 0 -1px rgba(0,0,0,.3);
+}
+
+/* Button HEADER PANEL */
+.header-panel-button.selected {
+    background: -webkit-gradient(linear,left top, left bottom,color-stop(0, rgba(255, 255, 255, 0.25)),to(rgba(255, 255, 255, 0.06)));
+    background: -webkit-linear-gradient(top,rgba(255, 255, 255, 0.25) 0,rgba(255, 255, 255, 0.06) 100%);
+    background: -o-linear-gradient(top,rgba(255, 255, 255, 0.25) 0,rgba(255, 255, 255, 0.06) 100%);
+    
+}
+.dark-label {
+    color: #42A5DC;
+}
+
+
+/* Centro da sala - Elementos
+-------------------------------------------------------------------------------*/
+/* Button DJ */
+
+#rs-eta { display: none }
+
+#dj-button {
+    background: rgb(25, 28, 37);
+    border-radius: 25px 25px 25px 25px;
+    box-shadow: inset -2px 0 5px rgba(255, 255, 255, 0.15);
+    -webkit-box-shadow: inset -2px 0 5px rgba(255, 255, 255, 0.15);
+}
+
+#dj-button span { font-size: 15px !important; }
+
+#dj-button .left {
+    background: linear-gradient(to top, rgba(4, 32, 47, 0.75), rgba(18, 79, 212, 0.75) 5%, rgba(5, 186, 255, 0.75));
+    background: -moz-linear-gradient(to top, rgba(4, 32, 47, 0.75), rgba(18, 79, 212, 0.75) 5%, rgba(5, 186, 255, 0.75));
+    background: -webkit-gradient(linear, left bottom, left top, from(rgba(4, 32, 47, 0.75)), color-stop(5%, rgba(18, 79, 212, 0.75)), to(rgba(5, 186, 255, 0.75)));
+    background: -webkit-linear-gradient(bottom, rgba(4, 32, 47, 0.75), rgba(18, 79, 212, 0.75) 5%, rgba(5, 186, 255, 0.75));
+    background: -o-linear-gradient(bottom, rgba(4, 32, 47, 0.75), rgba(18, 79, 212, 0.75) 5%, rgba(5, 186, 255, 0.75));
+    border-radius: 25px 0 0 25px;
+}
+
+#dj-button.is-leave .left, #dj-button.is-quit .left {
+    background: linear-gradient(to top, rgb(62, 5, 7), rgb(175, 60, 16) 5%, rgb(196, 46, 59));
+    background: -webkit-gradient(linear, left bottom, left top, from(rgb(62, 5, 7)), color-stop(5%, rgb(175, 60, 16)), to(rgb(196, 46, 59)));
+    background: -webkit-linear-gradient(bottom, rgb(62, 5, 7), rgb(175, 60, 16) 5%, rgb(196, 46, 59));
+    background: -o-linear-gradient(bottom, rgb(62, 5, 7), rgb(175, 60, 16) 5%, rgb(196, 46, 59));
+}
+
+/* Visualização Usuario */
+#user-rollover          { background: rgba(0,0,0,.5); }
+#user-rollover .info    { background: rgba(0,0,0,.3); }
+
+#user-rollover.expand .arrow-down, #user-rollover.expand.self.can-skip .arrow-down,
+#user-rollover .arrow-down {
+    border-top: 8px solid rgba(0,0,0,.3);
+}
+
+#user-rollover .meta .joined, #user-rollover .meta .showID {
+    color: #fff;
+}
+
+/* Footer - rodapé
+-------------------------------------------------------------------------------*/
+#footer {
+    background: linear-gradient(180deg, rgba(0,0,0,.8), rgba(0,0,0,.3));
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,.8)), to(rgba(0,0,0,.3)));
+    background: -webkit-linear-gradient(top, rgba(0,0,0,.8), rgba(0,0,0,.3));
+    background: -o-linear-gradient(top, rgba(0,0,0,.8), rgba(0,0,0,.3));
+    
+    box-shadow: inset 0 2px 0 -1px rgba(0,0,0,.3);
+    -webkit-box-shadow: inset 0 2px 0 -1px rgba(0,0,0,.3);
+}
+#footer .bar-button .section .chevron:after,
+#footer .bar-button .section .chevron:before {
+    background: linear-gradient(to top, rgba(4, 32, 47, 0.75), rgba(18, 79, 212, 0.75) 5%, rgba(5, 186, 255, 0.75));
+    background: -webkit-gradient(linear, left bottom, left top, from(rgba(4, 32, 47, 0.75)), color-stop(5%, rgba(18, 79, 212, 0.75)), to(rgba(5, 186, 255, 0.75)));
+    background: -webkit-linear-gradient(bottom, rgba(4, 32, 47, 0.75), rgba(18, 79, 212, 0.75) 5%, rgba(5, 186, 255, 0.75));
+    background: -o-linear-gradient(bottom, rgba(4, 32, 47, 0.75), rgba(18, 79, 212, 0.75) 5%, rgba(5, 186, 255, 0.75));
+}

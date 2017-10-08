@@ -1,0 +1,42 @@
+.icon-twitter-selected,
+.icon-facebook-selected,
+.icon-next-track,
+.icon-check-purple,
+.icon-check-circle,
+.icon-grab,
+.icon-woot,
+.icon-meh,
+.icon-woot-disabled,
+.icon-meh-disabled,
+.icon-site-logo,
+.icon-chat,
+.icon-population,
+.icon-waitlist
+
+{
+    background-position: center;
+}
+
+/* Pequena colinha → { background: url(""); } */
+
+/* Icones do plug alterados
+-------------------------------------------------------------------------------*/
+.icon-twitter-selected  { background: url("https://edmandindie.github.io/imagens/icon-twitter-selected.png"); }
+.icon-facebook-selected { background: url("https://edmandindie.github.io/imagens/icon-facebook-selected.png"); }
+
+.icon-woot              { background: url("https://edmandindie.github.io/imagens/icon-woot.png"); }
+.icon-woot-disabled     { background: url("https://edmandindie.github.io/imagens/icon-woot-disabled.png"); }
+
+.icon-meh               { background: url("https://edmandindie.github.io/imagens/icon-meh.png"); }
+.icon-meh-disabled      { background: url("https://edmandindie.github.io/imagens/icon-meh-disabled.png"); }
+
+.icon-next-track        { background: url("https://edmandindie.github.io/imagens/icon-next-track.png"); }
+.icon-check-purple      { background: url("https://edmandindie.github.io/imagens/icon-check-blue.png"); }
+.icon-check-circle      { background: url("https://edmandindie.github.io/imagens/icon-check-circle.png"); }
+.icon-grab              { background: url("https://edmandindie.github.io/imagens/icon-grab.png"); }
+
+.icon-site-logo			{ background: url("https://edmandindie.github.io/imagens/icon-site-logo.png"); }
+
+.icon-chat				{ background: url("https://edmandindie.github.io/imagens/icon-chat.png"); }
+.icon-population		{ background: url("https://edmandindie.github.io/imagens/icon-population.png"); }
+.icon-waitlist			{ background: url("https://edmandindie.github.io/imagens/icon-waitlist.png"); }

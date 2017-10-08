@@ -1,0 +1,35 @@
+/* Footer right buttons */
+#footer-user .buttons .button,
+#footer-user .buttons .button.store,
+/* Subscribe button */
+.social-menu .subscribe,
+
+/* Playlist Button */
+#playlist-button,
+/* Playlist Menu left button */
+#playlist-menu .menu .row,
+
+/* Menu left Profile */
+#user-menu .item,
+/* DropDown Profile */
+.dropdown dd .row,
+
+/* User info buttons */
+#user-rollover .actions .action,
+
+/* Itens menu PLUG */
+#app-menu .list .item,
+/* Skip and History Button */
+#rs-skip-button,
+#history-button,
+/* User List */
+#user-lists .list .user,
+#user-lists .header .button,
+
+/* Join community button */
+.communities .grid .cell .meta .join
+
+{
+	-webkit-transition: all .3s linear;
+			transition: all .3s linear;
+}

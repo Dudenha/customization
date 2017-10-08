@@ -1,0 +1,33 @@
+
+/* Forçar Título da sala alternativo */
+
+#room-bar > #room-name {
+    margin-top: 7px !important;
+}
+
+#room-bar > #room-host {
+    margin-top: -15px !important;
+}
+
+#room-bar span {
+    font-size: 20px !important;
+}
+
+#room-bar:hover > #room-name, #room-bar > #room-host {
+    opacity: 0 !important;
+    transition: opacity 0.25s !important;
+}
+
+#room-bar > #room-name, #room-bar:hover > #room-host {
+    opacity: 1 !important;
+    transition: opacity 0.25s !important;
+    transition-delay: 0.25s !important;
+}
+
+#room-bar * {
+    font-weight: lighter !important;
+}
+
+.dark-label {
+    display: none !important;
+}

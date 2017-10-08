@@ -1,0 +1,104 @@
+/* MENU DE VOTO / ADD / CHATO
+-------------------------------------------------------------------------------*/
+/*
+
+Customizado por: Philippe Henrique
+código totalmente aberto e livre para uso de qualquer pessoa!
+
+*/
+
+#vote {
+	width: 300px !important;
+}
+
+#woot .bottom,
+#grab .bottom,
+#meh  .bottom {
+	opacity: 0;
+}
+
+#vote .crowd-response,
+.bottom {
+	transition: all .4s linear;
+	-webkit-transition: all .4s linear;
+}
+
+#vote .crowd-response {
+	border-radius: 100%;
+	border: 2px solid rgba(0,0,0,.25);
+	background: transparent;
+	width: 84px !important;
+	height: 84px !important;
+	bottom: 20px !important;
+	margin-left: 5px;
+	color: rgba(0,0,0,.5);
+}
+
+#vote .crowd-response:hover {	cursor: pointer !important; }
+
+#vote .crowd-response.selected {
+	color: #fff;
+}
+
+#vote .crowd-response .top .label {
+	font-weight: bold;
+}
+
+#vote #grab:hover {
+	background: rgba(66, 165, 220, .5);
+}
+
+#vote #woot:hover {
+	background: rgba(144, 173, 47, .5);
+}
+
+#vote #meh:hover {
+	background: rgba(196, 46, 59, .5);
+}
+
+#vote .crowd-response:hover .bottom {
+	opacity: 1;
+	top: 60px;
+	border-radius: 0 0 100% 100%;
+}
+
+#vote .crowd-response .top {
+	top: 23px;
+	left: 0px !important;
+}
+
+.votes-rs {
+	bottom: 80px;
+	left: 18px;
+	opacity: .5;
+}
+
+.votes-rs .voteslist {
+	height: 160px;
+}
+
+.voteslist p {
+	padding: 5px 0;
+}
+.voteslist p:nth-child(2n+1) {
+	background: rgba(0,0,0,.15);
+}
+
+/* Cores personalizadas
+-------------------------------------------------------------------------------*/
+
+/* Botão Woot */
+#woot .bottom, #woot.selected {
+	background: #90ad2f !important;
+}
+
+/* Botão Adicionar Música à playlist */
+#grab .bottom, #grab.selected,
+.votes-rs .title.grab {
+	background: #42a5dc !important;
+}
+
+/* Botão Meh */
+#meh .bottom, #meh.selected {
+	background: #c42e3b !important;
+}

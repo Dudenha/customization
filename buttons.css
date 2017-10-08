@@ -1,0 +1,91 @@
+
+/* Classe 1 = HOVER→ Sub Menus e alguns botões
+-------------------------------------------------------------------------------*/
+
+/* Footer right buttons */
+#footer-user .buttons .button:hover,
+#footer-user .buttons .button.store:hover,
+/* Subscribe button */
+.social-menu .subscribe:hover,
+
+/* Playlist Button */
+#playlist-button:hover,
+/* Playlist Menu left button */
+#playlist-menu .menu .row:hover,
+
+/* Menu left Profile */
+#user-menu .item:hover,
+/* DropDown Profile */
+.dropdown dd .row:hover,
+
+/* User info buttons */
+#user-rollover .actions .action:hover,
+
+/* Itens menu PLUG */
+#app-menu .list .item:hover,
+/* Skip and History Button */
+#rs-skip-button:hover,
+#history-button:hover,
+/* User List */
+#user-lists .list .user:hover,
+#user-lists .header .button:hover,
+
+/* Join community button */
+.communities .grid .cell .meta .join:hover
+
+{
+	background: rgba(66, 165, 220, .5) !important;
+	-webkit-box-shadow: inset 0 0 1px 1px #42a5dc !important;
+    		box-shadow: inset 0 0 1px 1px #42a5dc !important;
+}
+
+/* Classe 2 = DEFAULT→ Botões e menus selecionados
+-------------------------------------------------------------------------------*/
+
+#room-settings-menu .item.selected,
+#playlist-menu .menu .row.selected,
+#user-menu .item.selected
+
+{
+	background: rgba(66, 165, 220, .6) !important;
+}
+
+
+/* Classe 3 = DEFAULT→ Botões destacados
+-------------------------------------------------------------------------------*/
+
+.social-menu .subscribe,
+#playlist-button,
+#rs-skip-button,
+#history-button,
+#app-menu .button
+
+{
+	background: rgba(0, 0, 0, .3) !important;
+}
+
+/* Classe 4 = DEFAULT→ Botões Avançar / Ativos
+-------------------------------------------------------------------------------*/
+
+#room-settings .general-settings .option button.off,
+.tab-menu button.selected
+
+{
+	background: -webkit-linear-gradient(bottom, rgba(4, 32, 47, 0.75), rgba(18, 79, 212, 0.75) 5%, rgba(5, 186, 255, 0.75));
+	background: -o-linear-gradient(bottom, rgba(4, 32, 47, 0.75), rgba(18, 79, 212, 0.75) 5%, rgba(5, 186, 255, 0.75));
+	background: linear-gradient(to top, rgba(4, 32, 47, 0.75), rgba(18, 79, 212, 0.75) 5%, rgba(5, 186, 255, 0.75));
+}
+
+
+/* Classe 5 = DEFAULT→ Botões Retroceder / Desativos
+-------------------------------------------------------------------------------*/
+
+#footer-user.showing .back,
+.dialog.destructive .button.submit,
+.dialog-frame .button.submit.destructive
+
+{
+	background: -webkit-linear-gradient(bottom, rgb(62, 5, 7), rgb(175, 60, 16) 5%, rgb(196, 46, 59)) !important;
+	background: -o-linear-gradient(bottom, rgb(62, 5, 7), rgb(175, 60, 16) 5%, rgb(196, 46, 59)) !important;
+	background: linear-gradient(to top, rgb(62, 5, 7), rgb(175, 60, 16) 5%, rgb(196, 46, 59)) !important;
+}
