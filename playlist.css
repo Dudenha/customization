@@ -80,7 +80,7 @@
 }
 
 #playlist-panel {
-    background: url('https://edmandindie.github.io/imagens/fundo-blur.jpg') no-repeat !important;
+    background: url('https://edm-and-indie.github.io/customization/images/fundo-blur.jpg') no-repeat !important;
     background-size: cover !important;
 }
 
@@ -202,5 +202,5 @@
 }
 
 #history-panel {
-    background: url(https://edmandindie.github.io/imagens/fundo-blur.jpg)
+    background: url("https://edm-and-indie.github.io/customization/images/fundo-blur.jpg");
 }
