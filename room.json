@@ -27,8 +27,8 @@
         "user":                 null
     },
     "images": {
-        "background":           "https://edmandindie.github.io/imagens/fundo-neve.jpg",
-        "playback":             "https://edmandindie.github.io/imagens/playback.png",
+        "background":           "https://edm-and-indie.github.io/customization/images/fundo-neve.jpg",
+        "playback":             "https://edm-and-indie.github.io/customization/images/playback.png",
         "admin":                null,
         "ambassador":           null,
         "host":                 null,
