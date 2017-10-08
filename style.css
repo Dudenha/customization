@@ -1,15 +1,15 @@
 /* Edições autorais */
-@import url("https://edmandindie.github.io/css/autorais/playlist.css");
+@import url("https://edm-and-indie.github.io/customization/playlist.css");
 
 /* Edições próprias */
-@import url("https://edmandindie.github.io/css/hidden_elements.css");
-@import url("https://edmandindie.github.io/css/buttons-animation.css");
-@import url("https://edmandindie.github.io/css/buttons.css");
-@import url("https://edmandindie.github.io/css/buttons-vote.css");
-@import url("https://edmandindie.github.io/css/animations.css");
-@import url("https://edmandindie.github.io/css/others.css");
-@import url("https://edmandindie.github.io/css/icons.css");
-@import url("https://edmandindie.github.io/css/chat.css");
+@import url("https://edm-and-indie.github.io/customization/hidden_elements.css");
+@import url("https://edm-and-indie.github.io/customization/buttons-animation.css");
+@import url("https://edm-and-indie.github.io/customization/buttons.css");
+@import url("https://edm-and-indie.github.io/customization/buttons-vote.css");
+@import url("https://edm-and-indie.github.io/customization/animations.css");
+@import url("https://edm-and-indie.github.io/customization/others.css");
+@import url("https://edm-and-indie.github.io/customization/icons.css");
+@import url("https://edm-and-indie.github.io/customization/chat.css");
 
 /* Header - Cabeçalho
 -------------------------------------------------------------------------------*/
