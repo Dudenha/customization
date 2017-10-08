@@ -13,6 +13,11 @@
 /* Icones All */
 .icon { background-image: url("https://edm-and-indie.github.io/customization/images/todos-icones.png"); }
 
+/* APP MENU */
+#app-menu {
+    background: transparent;
+}
+
 /* Header - Cabeçalho
 -------------------------------------------------------------------------------*/
 
