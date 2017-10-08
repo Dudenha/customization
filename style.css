@@ -8,8 +8,10 @@
 @import url("https://edm-and-indie.github.io/customization/buttons-vote.css");
 @import url("https://edm-and-indie.github.io/customization/animations.css");
 @import url("https://edm-and-indie.github.io/customization/others.css");
-@import url("https://edm-and-indie.github.io/customization/icons.css");
 @import url("https://edm-and-indie.github.io/customization/chat.css");
+
+/* Icones All */
+.icon { background-image: url("https://edm-and-indie.github.io/customization/images/icones-modificados.png"); }
 
 /* Header - Cabeçalho
 -------------------------------------------------------------------------------*/
